@@ -1,0 +1,61 @@
+{
+  "drums": [
+    {
+      "id": "crash",
+      "name": "Crash",
+      "filename": "crash.wav"
+    },
+    {
+      "id": "ride",
+      "name": "Ride",
+      "filename": "ride.wav"
+    },
+    {
+      "id": "tom1",
+      "name": "Tom 1",
+      "filename": "tom1.wav"
+    },
+    {
+      "id": "tom2",
+      "name": "Tom 2",
+      "filename": "tom2.wav"
+    },
+    {
+      "id": "hihat-open",
+      "name": "Hi-Hat Open",
+      "filename": "hihat-open.wav"
+    },
+    {
+      "id": "hihat-closed",
+      "name": "Hi-Hat Closed",
+      "filename": "hihat-closed.wav"
+    },
+    {
+      "id": "snare",
+      "name": "Snare",
+      "filename": "snare.wav"
+    },
+    {
+      "id": "bass",
+      "name": "Bass",
+      "filename": "bass.wav"
+    }
+  ],
+  "kits": [
+    {
+      "id": "basic",
+      "name": "Basic Kit",
+      "path": "/sounds/basic/",
+      "sounds": {
+        "crash": "crash.wav",
+        "ride": "ride.wav",
+        "tom1": "tom1.wav",
+        "tom2": "tom2.wav",
+        "hihat-open": "hihat-open.wav",
+        "hihat-closed": "hihat-closed.wav",
+        "snare": "snare.wav",
+        "bass": "bass.wav"
+      }
+    }
+  ]
+}
