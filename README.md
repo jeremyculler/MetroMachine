@@ -1,4 +1,4 @@
-# 🥁 Drum Machine
+# 🥁 MetroMachine - Metronome/Drum Machine
 
 https://jeremyculler.github.io/MetroMachine/
 
@@ -6,11 +6,12 @@ A React-based drum machine with step sequencer, pattern presets, and real-time B
 
 ## Features
 
-- **Step Sequencer**: 16-step grid with accent support
-- **Pattern Presets**: Rock and Blues patterns with different measures
-- **Fill System**: Separate pattern for final measure
+- **Step Sequencer**: variable-step grid with accent support
+- **Measure Counter**: Keep track of where you are in a phrase not just in a bar
+- **Fill System**: Separate pattern for final measure so you can hear the end of a phrase
+- **Pattern Presets**: Rock and Blues patterns with different phrase length for ease of use
 - **Real-time BPM Control**: Change tempo during playback
-- **Multiple Kits**: Extensible drum kit system
+- **Multiple Kits (potentially)**: Extensible drum kit system
 - **Visual Feedback**: Beat highlighting and measure counter
 
 ## Getting Started
