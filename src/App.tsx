@@ -171,14 +171,6 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>MetroMachine</h1>
-        <MeasureCounter
-          currentMeasure={currentMeasure}
-          totalMeasures={state.measures}
-          currentBeat={currentBeat}
-          beatsPerMeasure={state.beatsPerMeasure}
-          isPlaying={isPlaying}
-          isCountingIn={isCountingIn}
-        />
       </header>
 
       <CountdownOverlay
@@ -212,6 +204,15 @@ function App() {
           onFillToggle={handleFillToggle}
           onCountInToggle={handleCountInToggle}
           onAccentVolumeChange={handleAccentVolumeChange}
+        />
+
+        <MeasureCounter
+          currentMeasure={currentMeasure}
+          totalMeasures={state.measures}
+          currentBeat={currentBeat}
+          beatsPerMeasure={state.beatsPerMeasure}
+          isPlaying={isPlaying}
+          isCountingIn={isCountingIn}
         />
 
         <div className="grid-container">
