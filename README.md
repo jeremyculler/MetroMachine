@@ -1,5 +1,7 @@
 # 🥁 Drum Machine
 
+https://jeremyculler.github.io/MetroMachine/
+
 A React-based drum machine with step sequencer, pattern presets, and real-time BPM control.
 
 ## Features
